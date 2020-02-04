@@ -5,11 +5,8 @@ def stNum1 (x, y):
     return rez
 
 def stNum2(x, y):
-    rez = 0;
-    for i in range(0, abs(y)):
-        for j in range(0, (i*(abs(y)))):
-            rez += x
-
+    rez = 0
     return rez
 
+print (stNum1(5, -5))
 print (stNum2(5, 5))
